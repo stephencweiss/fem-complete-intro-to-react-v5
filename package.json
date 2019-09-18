@@ -1,0 +1,11 @@
+{
+  "name": "fem-complete-intro-to-react-v5-adopt-me",
+  "version": "0.0.1",
+  "description": "brian holdt's course on fem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephen Weiss <stephencweiss@gmail.com>",
+  "license": "MIT"
+}
