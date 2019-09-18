@@ -12,12 +12,15 @@
   <script src="https://unpkg.com/react@16.8.4/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@16.8.4/umd/react-dom.development.js"></script>
   <script>
-    // React code will go here for the time being
+    const InternalComponent = (props) => {
+          console.log(props)
+          return React.createElement("h1", {}, "Adopt Me!")
+        }
 
     const App = () => React.createElement(
         "div",
-        {},
-        React.createElement("h1", {}, "Adopt Me!")
+        {id: 'main-div'},
+        React.createElement("div", {}, React.createElement(InternalComponent, {value: 1}))
       )
 
     ReactDOM.render(React.createElement(App), document.getElementById('root'))
