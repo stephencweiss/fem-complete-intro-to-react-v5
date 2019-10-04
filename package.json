@@ -4,8 +4,13 @@
   "description": "brian holdt's course on fem",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "prettier \"src/**/*.{js,html}\" --write"
   },
   "author": "Stephen Weiss <stephencweiss@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+
+  }
 }
