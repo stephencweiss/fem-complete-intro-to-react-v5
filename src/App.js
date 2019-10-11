@@ -1,6 +1,6 @@
-import React from 'react';
-import { render } from 'react-dom';
-import SearchParams from './SearchParams';
+import React from "react";
+import { render } from "react-dom";
+import SearchParams from "./SearchParams";
 
 const App = () => (
   <div id="main-div">
@@ -9,4 +9,4 @@ const App = () => (
   </div>
 );
 
-render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById("root"));
