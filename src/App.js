@@ -5,7 +5,9 @@ import SearchParams from "./SearchParams";
 const App = () => (
   <div id="main-div">
     <h1>Adopt Me!</h1>
-    <SearchParams />
+    <React.StrictMode>
+      <SearchParams />
+    </React.StrictMode>
   </div>
 );
 
